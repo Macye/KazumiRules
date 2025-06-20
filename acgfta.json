@@ -1,0 +1,17 @@
+{
+  "api": "1",
+  "type": "anime",
+  "name": "ACGFTA",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "userAgent": "",
+  "baseURL": "https://acgfta.com/",
+  "searchURL": "https://acgfta.com/search?wd=@keyword",
+  "searchList": "//div[contains(@class,'search-box')]/ul/li",
+  "searchName": ".//h3/a/text()",
+  "searchResult": ".//h3/a/@href",
+  "chapterRoads": "//div[contains(@class,'module-play-list')]/div/ul/li",
+  "chapterResult": "./a/@href"
+}
